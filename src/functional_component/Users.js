@@ -2,7 +2,7 @@ import { render } from '@testing-library/react';
 import React from 'react';
 
 
-function Users() {
+function Users(prop) {
 
     return (
         <div>
@@ -22,6 +22,7 @@ function Users() {
                     Test cases are very flexible in functional component
                 </li>
             </ul>
+            <h2>{prop.data}</h2>
         </div>
     )
 }

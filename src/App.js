@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Home />
       <Profile />
-      <Users />
+      <Users data="Data from functional component11" />
     </div>
   );
 }
